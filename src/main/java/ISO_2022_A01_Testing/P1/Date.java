@@ -10,13 +10,13 @@ public class Date {
 	
 	public boolean isLeap() {
 		
-		if(this.year%400 == 0) {
+		if(this.getYear()%400 == 0) {
 			return true;
 		}
-		else if(this.year%100 == 0) {
+		else if(this.getYear()%100 == 0) {
 			return false;
 		}
-		else if(this.year % 4 == 0 ) {
+		else if(this.getYear()%4 == 0 ) {
 			return true;
 		}
 		else {
@@ -25,14 +25,15 @@ public class Date {
 	}
 	
 	public Date(int day, int month, int year) throws IllegalArgumentException {
-		
-		if(day < 0 || month < 0 || year < 0) {
-			throw new IllegalArgumentException("All date parameters should be positive");
-		}
-		
+
 		this.setDay(day);
 		this.setMonth(month);
 		this.setYear(year);
+
+		if(this.getDay() < 0 || this.getMonth() < 0 || this.getYear() < 0) {
+			throw new IllegalArgumentException("All date parameters should be positive");
+
+		}
 	}
 
 
