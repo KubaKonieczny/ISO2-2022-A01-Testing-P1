@@ -11,7 +11,7 @@ For a complete installation and execution of the program follow the next steps:
 * Once the project appears in the Package explorer: Right click into the project > Run as > Mavel Build. In Goals write "site:site" then Run.
 
 The reports should have been succesfully created in the folder "target".
-### Problem 2
+### Problem 1
 Done by Jakub Konieczny
 
 <ins>Link to the main repository:<ins/> 
