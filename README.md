@@ -1,4 +1,4 @@
-# ISO2-2022-A01-Testing-P2
+# ISO2-2022-A01-Testing-P1
 This section corresponds to the Second Theoretical Exercise. The workload is distributed as follows:
 
 ### User's manual
